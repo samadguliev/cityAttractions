@@ -5,6 +5,7 @@ import Main from "./components/Main";
 import Footer from  './components/Footer'
 import Sidebar from "./components/Sidebar";
 import {List} from "./components/List";
+import {Form} from "./components/Form";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import {ItemDetail} from "./components/ItemDetail";
 
@@ -38,6 +39,7 @@ class App extends React.Component {
                         <Router>
                             <Switch>
                                 <Route exact path={"/"} component={Main} />
+                                <Route exact path={"/contacts/"} component={Form} />
                                 <Route exact path={"/list/"} component={ () => <List list={this.state.list} />  } />
                                 <Route path={"/list/:id/"} component={ ItemDetail } />
                             </Switch>

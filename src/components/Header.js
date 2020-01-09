@@ -15,7 +15,7 @@ class Header extends React.Component {
                     <ul className="menu">
                         <li className="selected"><a href="/">Главная</a></li>
                         <li><a href="/list/">Достопримечательности</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="/contacts/">Контакты</a></li>
                     </ul>
                 </div>
             </div>

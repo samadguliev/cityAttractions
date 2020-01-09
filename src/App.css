@@ -230,6 +230,48 @@ hr {
   font-size: 0.8em;
 }
 
+.form-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px !important;
+  max-width: 500px;
+}
+
+.form-checkbox {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-submit {
+  font-size: 16px;
+  margin: 15px 0;
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  background-color: #1A5AFF;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.form-submit:hover {
+  background-color: #3D84FF;
+}
+
+.form-submit:disabled {
+  opacity: 0.2;
+}
+
+.form-submit:disabled:hover {
+  background-color: #1A5AFF;
+}
 
 .footer {
   width: 100%;

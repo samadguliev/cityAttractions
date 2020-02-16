@@ -20,7 +20,7 @@ class App extends React.Component {
         this.getData();
     }
     getData = () => {
-        fetch('http://localhost:3000/data/data.json')
+        fetch('/data/data.json')
             .then(response => {
                 return response.json()
             })

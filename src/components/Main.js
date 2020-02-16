@@ -32,8 +32,8 @@ class Main extends React.Component {
                 </div>
 
 
-                {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/6hUW48mQiTI" frameBorder="0"*/}
-                        {/*allowFullScreen />*/}
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6hUW48mQiTI" frameBorder="0"
+                        allowFullScreen />
 
                 <div className="content">
                     <p>В 2010 г. город отметит свое тысячелетие. В 1010 г. ростовский князь Ярослав Мудрый основал здесь

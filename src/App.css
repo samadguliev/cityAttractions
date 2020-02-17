@@ -330,6 +330,13 @@ hr {
   cursor: pointer;
 }
 
+.detail-nav-block {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .footer {
   width: 100%;
   height: 100px;

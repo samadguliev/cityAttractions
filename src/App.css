@@ -332,9 +332,16 @@ hr {
 
 .detail-nav-block {
   margin: 20px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  float: left;
+  width: 100%;
+}
+
+.detail-nav-prev {
+  float: left;
+}
+
+.detail-nav-next {
+  float: right;
 }
 
 .footer {

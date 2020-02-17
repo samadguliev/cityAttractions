@@ -54,13 +54,14 @@ class ItemDetail extends React.Component {
                 <div className="detail-nav-block">
                     {this.state.prevLink &&
                         <a href={"/list/" + this.state.prevLink + "/"}
-                           className="detail-nav">
+                           className="detail-nav detail-nav-prev">
                             Назад
                         </a>
                     }
 
                     {this.state.nextLink &&
-                        <a href={"/list/" + this.state.nextLink + "/"}  className="detail-nav detail-nav-next">
+                        <a href={"/list/" + this.state.nextLink + "/"}
+                           className="detail-nav detail-nav-next">
                             Вперед
                         </a>
                     }
